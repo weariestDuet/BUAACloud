@@ -1,0 +1,76 @@
+.outside_box {
+  height: 60px;
+  background-color: hsl(276, 82%, 45%);
+  // 内容排布方式
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.title_left_box {
+  // 自身定位方式：相对
+  position: relative;
+  top: 0;
+  left: 0;
+  // 自身属性
+  height: 100%;
+  // 内容排布方式
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.title_left {
+  width: 250px;
+  color: #5eff00;
+  font-size: large;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.btn_center_box {
+  // 自身定位方式：相对
+  position: relative;
+  top: 0;
+  left: 0;
+  // 自身属性
+  width: 600px;
+  height: 100%;
+  // 内容排布方式
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.btn_center {
+  width: 90px;
+  height: 100%;
+  color: #d0e71f;
+  cursor: pointer;
+  transition: all 250ms;
+  // 内容排布方式
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_center:hover {
+  color: #5eff00;
+}
+
+.btn_center:active {
+  background-color: #ff008ccc;
+}
+
+.btn_center_highlight {
+  width: 90px;
+  height: 100%;
+  cursor: pointer;
+  transition: all 250ms;
+  // 内容排布方式
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff008ccc;
+  color: #5eff00;
+}
