@@ -1,3 +1,14 @@
+# 运行方式
+前端运行:
+1. 进入目录 cd .\BUAACloud_Frontend\
+2. 安装依赖 npm install
+3. 启动 npm start
+
+后端运行:
+1. 进入目录 cd .\BUAACloud_Backend\
+2. 安装相关依赖 pip install(...)
+3. 启动 python app.py
+
 # Docker管理器中间件
 
 项目名称：Docker-Manager-Middleware（Docker管理器中间件）
